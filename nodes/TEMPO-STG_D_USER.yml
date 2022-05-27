@@ -1,0 +1,197 @@
+steps:
+  STG_D_USER-7:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: 4
+      locationName: TEMPO
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 66
+              stepCounter: 7
+            dataType: VARCHAR(18)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 56
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 67
+              stepCounter: 7
+            dataType: VARCHAR(80)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USERNAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 57
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 68
+              stepCounter: 7
+            dataType: VARCHAR(80)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTNAME
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 58
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 69
+              stepCounter: 7
+            dataType: VARCHAR(40)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FIRSTNAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 59
+                    stepCounter: "6"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 76
+              stepCounter: 7
+            config: {}
+            dataType: VARCHAR(120)
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: FULL NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 59
+                    stepCounter: "6"
+                transform: CONCAT(D_USER."FIRSTNAME", ' ', D_USER."LASTNAME")
+            systemColumnType: None
+            transform: ""
+          - columnReference:
+              columnCounter: 70
+              stepCounter: 7
+            dataType: VARCHAR(128)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: EMAIL
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 60
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 71
+              stepCounter: 7
+            dataType: VARCHAR(8)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ALIAS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 61
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 72
+              stepCounter: 7
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISACTIVE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 62
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 73
+              stepCounter: 7
+            dataType: VARCHAR(40)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: USERTYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 63
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 74
+              stepCounter: 7
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREATEDDATE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 64
+                    stepCounter: "6"
+                transform: ""
+          - columnReference:
+              columnCounter: 75
+              stepCounter: 7
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTMODIFIEDDATE
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 65
+                    stepCounter: "6"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies: []
+            join:
+              joinCondition: FROM {{ ref('STAGING', 'D_USER') }} "D_USER"
+            name: STG_D_USER
+            noLinkRefs: []
+      name: STG_D_USER
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: "7"

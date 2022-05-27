@@ -1,0 +1,359 @@
+steps:
+  V_CASE_TASK-12:
+    operation:
+      config:
+        insertStrategy: UNION
+        selectDistinct: false
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: 4
+      locationName: TEMPO
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 153
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 332
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 154
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CASENUMBER
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 333
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 155
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORIGIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 334
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 156
+              stepCounter: 12
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISCLOSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 335
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 157
+              stepCounter: 12
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CLOSEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 336
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 158
+              stepCounter: 12
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTMODIFIEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 337
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 159
+              stepCounter: 12
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISESCALATED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 338
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 160
+              stepCounter: 12
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREATEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 339
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 161
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CONCERN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 340
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 162
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DETECTEDLANGUAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 341
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 163
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: QUESTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 342
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 164
+              stepCounter: 12
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SPAM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 343
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 165
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SERVICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 344
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 166
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CONTACTCENTERRESPONSIBLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 345
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 167
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RECORDTYPENAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 346
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 168
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMERREFERENCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 347
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 169
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INITIATOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 348
+                    stepCounter: "18"
+                transform: ""
+          - columnReference:
+              columnCounter: 170
+              stepCounter: 12
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: NUMBEROFTASKS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 349
+                    stepCounter: "18"
+                transform: COUNT(distinct "STG_CASE_TASK".TASK_ID)
+          - columnReference:
+              columnCounter: 551
+              stepCounter: "12"
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISINCOMING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 550
+                    stepCounter: "18"
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: |-
+                {{ stage('Override Create SQL') }}
+                	CREATE OR REPLACE VIEW {{ ref('TEMPO', 'V_CASE_TASK')}} AS (
+                		SELECT 
+                 ID AS ID,
+                 CASENUMBER AS CASENUMBER,
+                 ORIGIN AS ORIGIN,
+                 ISCLOSED AS ISCLOSED,
+                 CLOSEDDATE AS CLOSEDDATE,
+                 LASTMODIFIEDDATE AS LASTMODIFIEDDATE,
+                 ISESCALATED AS ISESCALATED,
+                 CREATEDDATE AS CREATEDDATE,
+                 CONCERN AS CONCERN,
+                 DETECTEDLANGUAGE AS DETECTEDLANGUAGE,
+                 QUESTION AS QUESTION,
+                 SPAM AS SPAM,
+                 SERVICE AS SERVICE,
+                 CONTACTCENTERRESPONSIBLE AS CONTACTCENTERRESPONSIBLE,
+                 RECORDTYPENAME AS RECORDTYPENAME,
+                 CUSTOMERREFERENCE AS CUSTOMERREFERENCE,
+                 INITIATOR AS INITIATOR,
+                 TASK_ID AS TASK_ID
+                 FROM {{ ref('TEMPO', 'STG_CASE_TASK') }}
+                	)
+            dependencies:
+              - locationName: TEMPO
+                nodeName: V_CASE_TASK1
+            join:
+              joinCondition: "FROM {{ ref('TEMPO', 'V_CASE_TASK1') }} \"V_CASE_TASK1\"\r
+
+                GROUP BY \"V_CASE_TASK1\".\"ID\",\r
+
+                \        V_CASE_TASK1.\"CASENUMBER\",\r
+
+                \        V_CASE_TASK1.\"ORIGIN\",\r
+
+                \        V_CASE_TASK1.ISCLOSED,\r
+
+                \        V_CASE_TASK1.CLOSEDDATE,\r
+
+                \        V_CASE_TASK1.\"LASTMODIFIEDDATE\",\r
+
+                \        V_CASE_TASK1.\"ISESCALATED\",\r
+
+                \        V_CASE_TASK1.\"CREATEDDATE\",\r
+
+                \        V_CASE_TASK1.\"CONCERN\",\r
+
+                \        V_CASE_TASK1.\"DETECTEDLANGUAGE\",\r
+
+                \        V_CASE_TASK1.\"QUESTION\",\r
+
+                \        V_CASE_TASK1.SPAM,\r
+
+                \        V_CASE_TASK1.\"SERVICE\",\r
+
+                \        V_CASE_TASK1.\"CONTACTCENTERRESPONSIBLE\
+                \",\r
+
+                \        V_CASE_TASK1.\"RECORDTYPENAME\",\r
+
+                \        V_CASE_TASK1.\"CUSTOMERREFERENCE\",\r
+
+                \        V_CASE_TASK1.\"INITIATOR\"\r\n"
+            name: V_CASE_TASK
+            noLinkRefs: []
+      name: V_CASE_TASK
+      overrideSQL: false
+      schema: ""
+      sqlType: View
+      type: sql
+    stepCounter: "12"

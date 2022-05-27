@@ -51,13 +51,6 @@ environments:
         schema: SCH_STAGING
     name: PRODUCTION
 jobs:
-  Job-1:
-    id: 1
-    name: ETL D_USER
-    steps: []
-    subgraphs:
-      - 1
-      - 2
   Job-3:
     id: 3
     name: New Job
@@ -2661,7 +2654,6 @@ subgraphs:
     id: 1
     name: D_USER
     steps:
-      - "7"
       - "8"
       - "9"
   Subgraph-2:
@@ -2673,5 +2665,4 @@ subgraphs:
       - "4"
       - "5"
       - "12"
-      - "13"
       - "18"

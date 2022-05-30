@@ -1,0 +1,423 @@
+steps:
+  V_UNION_DIM_STG-23:
+    operation:
+      config:
+        insertStrategy: UNION
+        selectDistinct: false
+      database: ""
+      dependencies: []
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationID: 5
+      locationName: STAGING
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 611
+              stepCounter: 23
+            dataType: NUMBER
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DIM_CASE_TASK_UPPER_KEY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 585
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences: []
+                transform: "9999"
+          - columnReference:
+              columnCounter: 637
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 586
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 39
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 638
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CASENUMBER
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 587
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 40
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 639
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ORIGIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 588
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 41
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 640
+              stepCounter: 23
+            config: {}
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISCLOSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 589
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 42
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 641
+              stepCounter: 23
+            config: {}
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CLOSEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 590
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 43
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 642
+              stepCounter: 23
+            config: {}
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LASTMODIFIEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 591
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 44
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 643
+              stepCounter: 23
+            config: {}
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISESCALATED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 592
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 45
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 644
+              stepCounter: 23
+            config: {}
+            dataType: TIMESTAMP_TZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CREATEDDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 593
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 46
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 645
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CONCERN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 594
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 47
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 646
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DETECTEDLANGUAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 595
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 48
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 647
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: QUESTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 596
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 49
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 648
+              stepCounter: 23
+            config: {}
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SPAM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 597
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 50
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 649
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SERVICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 598
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 51
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 650
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CONTACTCENTERRESPONSIBLE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 599
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 52
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 651
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: RECORDTYPENAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 600
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 53
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 652
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMERREFERENCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 601
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 54
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 653
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INITIATOR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 602
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 55
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 654
+              stepCounter: 23
+            config: {}
+            dataType: VARCHAR(255)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TASK_ID
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 603
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 115
+                    stepCounter: "5"
+                transform: ""
+          - columnReference:
+              columnCounter: 655
+              stepCounter: 23
+            config: {}
+            dataType: BOOLEAN
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ISINCOMING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 604
+                    stepCounter: "22"
+                transform: ""
+              - columnReferences:
+                  - columnCounter: 549
+                    stepCounter: "5"
+                transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STAGING
+                nodeName: DIM_CASE_TASK_UPPER
+            join:
+              joinCondition: FROM {{ ref('STAGING', 'DIM_CASE_TASK_UPPER') }}
+                "DIM_CASE_TASK_UPPER"
+            name: DIM
+            noLinkRefs: []
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: TEMPO
+                nodeName: STG_CASE_TASK
+              - locationName: STAGING
+                nodeName: DIM_CASE_TASK_UPPER
+            join:
+              joinCondition: FROM {{ ref('TEMPO', 'STG_CASE_TASK') }} "STG_CASE_TASK"
+            name: STG
+            noLinkRefs: []
+      name: V_UNION_DIM_STG
+      overrideSQL: false
+      schema: ""
+      sqlType: View
+      type: sql
+    stepCounter: "23"

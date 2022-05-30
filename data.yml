@@ -24,32 +24,6 @@ environments:
         locationName: STAGING
         schema: SCH_STAGING
     name: DEV
-  PRODUCTION:
-    createdAt:
-      nanoseconds: 507000000
-      seconds: 1652794904
-    createdBy: z4h0uRIoRfOotBX3oOcHwhZFTiF3
-    currentlyRunningJobs: []
-    description: ""
-    devEnv: false
-    id: 2
-    mappings:
-      "3":
-        database: DB_DEV_DIE
-        id: 3
-        locationName: DWH
-        schema: SCH_DWH
-      "4":
-        database: DB_DEV_DIE
-        id: 4
-        locationName: TEMPO
-        schema: SCH_TEMPO
-      "5":
-        database: DB_DEV_DIE
-        id: 5
-        locationName: STAGING
-        schema: SCH_STAGING
-    name: PRODUCTION
 jobs:
   Job-3:
     id: 3

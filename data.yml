@@ -24,6 +24,31 @@ environments:
         locationName: STAGING
         schema: SCH_STAGING
     name: DEV
+  PROD:
+    createdAt:
+      nanoseconds: 239000000
+      seconds: 1653914264
+    createdBy: z4h0uRIoRfOotBX3oOcHwhZFTiF3
+    description: ""
+    devEnv: false
+    id: 3
+    mappings:
+      "3":
+        database: DB_DEV_GOLD
+        id: 3
+        locationName: DWH
+        schema: SCH_DWH
+      "4":
+        database: DB_DEV_GOLD
+        id: 4
+        locationName: TEMPO
+        schema: SCH_TEMPO
+      "5":
+        database: DB_DEV_GOLD
+        id: 5
+        locationName: STAGING
+        schema: SCH_STAGING
+    name: PROD
 jobs:
   Job-3:
     id: 3

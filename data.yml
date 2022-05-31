@@ -2104,7 +2104,7 @@ stepTypes:
     version: 1
   StepType-View:
     id: View
-    isDisabled: true
+    isDisabled: false
     metadata:
       error: null
       nodeMetadataSpec: |
@@ -2678,6 +2678,5 @@ subgraphs:
       - "18"
       - "20"
       - "21"
-      - "22"
       - "23"
       - "25"

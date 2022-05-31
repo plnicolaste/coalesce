@@ -1,5 +1,5 @@
 steps:
-  DIM_CASE_TASK_UPPER-22:
+  DIM_D_CASE-27:
     operation:
       config:
         postSQL: ""
@@ -10,8 +10,8 @@ steps:
       description: ""
       isDataVault: false
       isMultisource: false
-      locationID: 5
-      locationName: STAGING
+      locationID: 4
+      locationName: TEMPO
       materializationType: table
       metadata:
         appliedNodeTests: []
@@ -21,22 +21,22 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 585
-              stepCounter: 22
+              columnCounter: 710
+              stepCounter: 27
             config: {}
             dataType: NUMBER
             defaultValue: ""
             description: ""
             hashColumns: []
             isSurrogateKey: true
-            name: DIM_CASE_TASK_UPPER_KEY
+            name: DIM_D_CASE_KEY
             nullable: false
             sourceColumnReferences:
               - columnReferences: []
                 transform: ""
           - columnReference:
-              columnCounter: 586
-              stepCounter: 22
+              columnCounter: 711
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -46,12 +46,12 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 332
-                    stepCounter: "18"
+                  - columnCounter: 22
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 587
-              stepCounter: 22
+              columnCounter: 712
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -61,12 +61,12 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 333
-                    stepCounter: "18"
+                  - columnCounter: 23
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 588
-              stepCounter: 22
+              columnCounter: 713
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -76,12 +76,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 334
-                    stepCounter: "18"
+                  - columnCounter: 24
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 589
-              stepCounter: 22
+              columnCounter: 714
+              stepCounter: 27
             dataType: BOOLEAN
             description: ""
             hashColumns: []
@@ -91,12 +91,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 335
-                    stepCounter: "18"
+                  - columnCounter: 25
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 590
-              stepCounter: 22
+              columnCounter: 715
+              stepCounter: 27
             dataType: TIMESTAMP_TZ(9)
             description: ""
             hashColumns: []
@@ -106,12 +106,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 336
-                    stepCounter: "18"
+                  - columnCounter: 26
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 591
-              stepCounter: 22
+              columnCounter: 716
+              stepCounter: 27
             dataType: TIMESTAMP_TZ(9)
             description: ""
             hashColumns: []
@@ -121,12 +121,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 337
-                    stepCounter: "18"
+                  - columnCounter: 27
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 592
-              stepCounter: 22
+              columnCounter: 717
+              stepCounter: 27
             dataType: BOOLEAN
             description: ""
             hashColumns: []
@@ -136,12 +136,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 338
-                    stepCounter: "18"
+                  - columnCounter: 28
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 593
-              stepCounter: 22
+              columnCounter: 718
+              stepCounter: 27
             dataType: TIMESTAMP_TZ(9)
             description: ""
             hashColumns: []
@@ -151,12 +151,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 339
-                    stepCounter: "18"
+                  - columnCounter: 29
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 594
-              stepCounter: 22
+              columnCounter: 719
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -166,12 +166,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 340
-                    stepCounter: "18"
+                  - columnCounter: 30
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 595
-              stepCounter: 22
+              columnCounter: 720
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -181,12 +181,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 341
-                    stepCounter: "18"
+                  - columnCounter: 31
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 596
-              stepCounter: 22
+              columnCounter: 721
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -196,12 +196,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 342
-                    stepCounter: "18"
+                  - columnCounter: 32
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 597
-              stepCounter: 22
+              columnCounter: 722
+              stepCounter: 27
             dataType: BOOLEAN
             description: ""
             hashColumns: []
@@ -211,12 +211,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 343
-                    stepCounter: "18"
+                  - columnCounter: 33
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 598
-              stepCounter: 22
+              columnCounter: 723
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -226,12 +226,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 344
-                    stepCounter: "18"
+                  - columnCounter: 34
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 599
-              stepCounter: 22
+              columnCounter: 724
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -241,12 +241,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 345
-                    stepCounter: "18"
+                  - columnCounter: 35
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 600
-              stepCounter: 22
+              columnCounter: 725
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -256,12 +256,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 346
-                    stepCounter: "18"
+                  - columnCounter: 36
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 601
-              stepCounter: 22
+              columnCounter: 726
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -271,12 +271,12 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 347
-                    stepCounter: "18"
+                  - columnCounter: 37
+                    stepCounter: "4"
                 transform: ""
           - columnReference:
-              columnCounter: 602
-              stepCounter: 22
+              columnCounter: 727
+              stepCounter: 27
             dataType: VARCHAR(255)
             description: ""
             hashColumns: []
@@ -286,46 +286,16 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 348
-                    stepCounter: "18"
-                transform: ""
-          - columnReference:
-              columnCounter: 603
-              stepCounter: 22
-            dataType: VARCHAR(255)
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            isChangeTracking: true
-            name: TASK_ID
-            nullable: false
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 349
-                    stepCounter: "18"
-                transform: ""
-          - columnReference:
-              columnCounter: 604
-              stepCounter: 22
-            dataType: BOOLEAN
-            description: ""
-            hashColumns: []
-            hashDetails: null
-            isChangeTracking: true
-            name: ISINCOMING
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: 550
-                    stepCounter: "18"
+                  - columnCounter: 38
+                    stepCounter: "4"
                 transform: ""
           - acceptedValues:
               strictMatch: true
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 605
-              stepCounter: 22
+              columnCounter: 728
+              stepCounter: 27
             config: {}
             dataType: NUMBER
             defaultValue: ""
@@ -342,8 +312,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 606
-              stepCounter: 22
+              columnCounter: 729
+              stepCounter: 27
             config: {}
             dataType: VARCHAR
             defaultValue: ""
@@ -360,8 +330,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 607
-              stepCounter: 22
+              columnCounter: 730
+              stepCounter: 27
             config: {}
             dataType: TIMESTAMP
             defaultValue: ""
@@ -378,8 +348,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 608
-              stepCounter: 22
+              columnCounter: 731
+              stepCounter: 27
             config: {}
             dataType: TIMESTAMP
             defaultValue: ""
@@ -396,8 +366,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 609
-              stepCounter: 22
+              columnCounter: 732
+              stepCounter: 27
             config: {}
             dataType: TIMESTAMP
             defaultValue: ""
@@ -414,8 +384,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 610
-              stepCounter: 22
+              columnCounter: 733
+              stepCounter: 27
             config: {}
             dataType: TIMESTAMP
             defaultValue: ""
@@ -433,15 +403,15 @@ steps:
           - customSQL:
               customSQL: ""
             dependencies:
-              - locationName: TEMPO
-                nodeName: V_CASE_TASK_UPPER
+              - locationName: STAGING
+                nodeName: D_CASE
             join:
-              joinCondition: FROM {{ ref('TEMPO', 'V_CASE_TASK_UPPER') }} "V_CASE_TASK_UPPER"
-            name: DIM_CASE_TASK_UPPER
+              joinCondition: FROM {{ ref('STAGING', 'D_CASE') }} "D_CASE"
+            name: DIM_D_CASE
             noLinkRefs: []
-      name: DIM_CASE_TASK_UPPER
+      name: DIM_D_CASE
       overrideSQL: false
       schema: ""
       sqlType: Dimension
       type: sql
-    stepCounter: "22"
+    stepCounter: "27"
